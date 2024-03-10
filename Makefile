@@ -6,7 +6,7 @@
 #    By: wabolles <wabolles@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/02/10 06:28:09 by wabolles          #+#    #+#              #
-#    Updated: 2024/03/06 03:45:28 by wabolles         ###   ########.fr        #
+#    Updated: 2024/03/10 20:48:34 by wabolles         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ CFLAGS = -Wall -Wextra -Werror
 CC = cc
 HEADER = includes/minitalk.h
 
-################################## PRINTF ######################################
+#	PRINTF
 
 FMT = printf/fmt
 ROOT = printf
@@ -30,7 +30,7 @@ ROOT_FILES = $(ROOT)/ft_printf.c
 PRINTF_FILES = $(ROOT) $(FMT)
 PRINTF_OBJC = $(FMT_FILES:.c=.o) $(ROOT_FILES:.c=.o)
 
-################################# MINITALK ####################################
+#	MINITALK
 
 SERVER = server
 CLIENT = client

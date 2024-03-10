@@ -6,7 +6,7 @@
 /*   By: wabolles <wabolles@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/08 22:25:41 by wabolles          #+#    #+#             */
-/*   Updated: 2024/03/09 11:36:58 by wabolles         ###   ########.fr       */
+/*   Updated: 2024/03/10 20:59:37 by wabolles         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,7 @@ typedef struct two_returns
 }	t_two_returns;
 
 int				print_char(int c);
+int				ft_atoi(const char *str);
 int				print_nbr(int nbr);
 int				count_digit(int digit);
 int				print_string(char *buff);
