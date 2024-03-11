@@ -6,7 +6,7 @@
 #    By: wabolles <wabolles@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/02/10 06:28:09 by wabolles          #+#    #+#              #
-#    Updated: 2024/03/10 20:48:34 by wabolles         ###   ########.fr        #
+#    Updated: 2024/03/11 17:01:58 by wabolles         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -50,7 +50,7 @@ CLT_BNS = bonus/advanced_client.c garbage_collector/cleaner_at_destructor.c $(PR
 SRV_BNS_OBJ = bonus/advanced_server.o garbage_collector/cleaner_at_destructor.o $(PRINTF_OBJC)
 CLT_BNS_OBJ = bonus/advanced_client.o garbage_collector/cleaner_at_destructor.o $(PRINTF_OBJC)
 
-all: $(SERVER) $(CLIENT)
+all: fclean $(SERVER) $(CLIENT)
 
 $(SERVER): $(SRV_OBJ)
 	@$(CC) $(CFLAGS) $(SRV_OBJ) -o $(SERVER)
@@ -66,7 +66,7 @@ bonus: fclean $(SERVER_BNS) $(CLIENT_BNS)
 
 %.o: %.c $(HEADER)
 	@$(CC) $(CFLAGS) -c -o $@ $<
-	@echo "\033[1;34mCompile C file"
+	@echo "\033[1;34mCompile C file\033[1;0m"
 
 $(NAME):
 	rm -f garbage_collector/cleaner_at_destructor.o

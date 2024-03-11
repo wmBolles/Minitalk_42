@@ -6,7 +6,7 @@
 /*   By: wabolles <wabolles@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/08 22:25:41 by wabolles          #+#    #+#             */
-/*   Updated: 2024/03/10 20:59:37 by wabolles         ###   ########.fr       */
+/*   Updated: 2024/03/11 17:05:13 by wabolles         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,6 +42,6 @@ int				which_format(char fmt, va_list ellipsis);
 void			_end_func(void)
 				__attribute__ ((destructor));
 t_two_returns	add_addresses(char *addr);
-void			print_intro(int __attribute__ ((unused)) pid);
+void			print_intro(int pid);
 
 #endif

@@ -6,7 +6,7 @@
 /*   By: wabolles <wabolles@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/10 08:16:41 by wabolles          #+#    #+#             */
-/*   Updated: 2024/03/10 21:05:11 by wabolles         ###   ########.fr       */
+/*   Updated: 2024/03/11 16:56:37 by wabolles         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -99,5 +99,8 @@ int	main(int ac, char *av[1])
 		}
 	}
 	else
+	{
 		ft_printf("Please Enter the pid followed by message !\n");
+		return (1);
+	}
 }
