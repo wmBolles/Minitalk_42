@@ -6,7 +6,7 @@
 /*   By: wabolles <wabolles@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/10 06:45:14 by wabolles          #+#    #+#             */
-/*   Updated: 2024/03/10 20:46:43 by wabolles         ###   ########.fr       */
+/*   Updated: 2024/03/10 21:04:56 by wabolles         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,7 +65,7 @@ void	send_bytes(int pid, char *msg)
 
 	if (!msg)
 		return ;
-	if (pid < 0)
+	if (pid <= 0)
 		return ;
 	index = 0;
 	while (msg[index])
