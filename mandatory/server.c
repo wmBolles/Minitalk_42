@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   server.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wabolles <wabolles@student.42.fr>          +#+  +:+       +#+        */
+/*   By: wmbolles <wmbolles@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/13 15:02:56 by wabolles          #+#    #+#             */
-/*   Updated: 2024/03/13 15:41:13 by wabolles         ###   ########.fr       */
+/*   Updated: 2024/03/18 02:23:19 by wmbolles         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,7 @@ int	main(void)
 {
 	struct sigaction	signal;
 
-	signal.__sigaction_u.__sa_sigaction = &handle_signal;
+	signal.sa_sigaction = &handle_signal;
 	signal.sa_flags = SA_SIGINFO;
 	print_intro(getpid());
 	while (1)
