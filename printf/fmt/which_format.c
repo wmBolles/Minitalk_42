@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   which_format.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wabolles <wabolles@student.42.fr>          +#+  +:+       +#+        */
+/*   By: wmbolles <wmbolles@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/22 05:00:53 by wabolles          #+#    #+#             */
-/*   Updated: 2024/02/17 09:51:16 by wabolles         ###   ########.fr       */
+/*   Updated: 2024/03/20 05:58:17 by wmbolles         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../includes/minitalk.h"
+#include "minitalk.h"
 
 int	which_format(char fmt, va_list ellipsis)
 {

@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   print_base.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wabolles <wabolles@student.42.fr>          +#+  +:+       +#+        */
+/*   By: wmbolles <wmbolles@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/23 05:27:10 by wabolles          #+#    #+#             */
-/*   Updated: 2024/02/17 09:51:29 by wabolles         ###   ########.fr       */
+/*   Updated: 2024/03/20 05:58:00 by wmbolles         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../includes/minitalk.h"
+#include "minitalk.h"
 
 int	print_base16_u(unsigned int _)
 {

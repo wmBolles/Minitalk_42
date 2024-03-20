@@ -3,14 +3,14 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: wabolles <wabolles@student.42.fr>          +#+  +:+       +#+         #
+#    By: wmbolles <wmbolles@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/03/13 14:40:01 by wabolles          #+#    #+#              #
-#    Updated: 2024/03/13 17:16:23 by wabolles         ###   ########.fr        #
+#    Updated: 2024/03/20 05:57:17 by wmbolles         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror -I./includes
 CC = cc
 HEADER = includes/minitalk.h
 

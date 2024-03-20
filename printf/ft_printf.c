@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wabolles <wabolles@student.42.fr>          +#+  +:+       +#+        */
+/*   By: wmbolles <wmbolles@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/22 04:31:34 by wabolles          #+#    #+#             */
-/*   Updated: 2024/03/13 17:14:45 by wabolles         ###   ########.fr       */
+/*   Updated: 2024/03/20 05:57:50 by wmbolles         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/minitalk.h"
+#include "minitalk.h"
 
 int	ft_printf(const char *s, ...)
 {

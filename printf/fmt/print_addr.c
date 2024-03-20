@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   print_addr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wabolles <wabolles@student.42.fr>          +#+  +:+       +#+        */
+/*   By: wmbolles <wmbolles@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/23 05:24:33 by wabolles          #+#    #+#             */
-/*   Updated: 2024/03/09 22:20:31 by wabolles         ###   ########.fr       */
+/*   Updated: 2024/03/20 05:57:54 by wmbolles         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../includes/minitalk.h"
+#include "minitalk.h"
 
 static int	convert_address(unsigned long addr)
 {

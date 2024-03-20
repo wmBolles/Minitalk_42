@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   print_cs.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wabolles <wabolles@student.42.fr>          +#+  +:+       +#+        */
+/*   By: wmbolles <wmbolles@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/22 07:41:38 by wabolles          #+#    #+#             */
-/*   Updated: 2024/02/17 21:45:05 by wabolles         ###   ########.fr       */
+/*   Updated: 2024/03/20 05:58:07 by wmbolles         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../includes/minitalk.h"
+#include "minitalk.h"
 
 int	print_char(int c)
 {

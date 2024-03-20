@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   advanced_server.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wabolles <wabolles@student.42.fr>          +#+  +:+       +#+        */
+/*   By: wmbolles <wmbolles@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/13 15:39:20 by wabolles          #+#    #+#             */
-/*   Updated: 2024/03/13 17:42:01 by wabolles         ###   ########.fr       */
+/*   Updated: 2024/03/20 05:57:34 by wmbolles         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/minitalk.h"
+#include "minitalk.h"
 
 void	print_intro(int pid)
 {

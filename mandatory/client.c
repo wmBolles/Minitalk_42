@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   client.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wabolles <wabolles@student.42.fr>          +#+  +:+       +#+        */
+/*   By: wmbolles <wmbolles@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/13 14:39:54 by wabolles          #+#    #+#             */
-/*   Updated: 2024/03/13 17:33:51 by wabolles         ###   ########.fr       */
+/*   Updated: 2024/03/20 05:57:22 by wmbolles         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/minitalk.h"
+#include "minitalk.h"
 
 int	check_pid(char *pid)
 {
@@ -65,7 +65,7 @@ int	send_bits(int pid, char byte)
 				return (_FAILURE_);
 			}
 		}
-		usleep(505);
+		usleep(800);
 		index--;
 	}
 	return (_SUCCSESS_);

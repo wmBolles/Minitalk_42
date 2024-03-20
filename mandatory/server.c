@@ -6,11 +6,11 @@
 /*   By: wmbolles <wmbolles@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/13 15:02:56 by wabolles          #+#    #+#             */
-/*   Updated: 2024/03/18 02:23:19 by wmbolles         ###   ########.fr       */
+/*   Updated: 2024/03/20 05:57:44 by wmbolles         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/minitalk.h"
+#include "minitalk.h"
 
 void	print_intro(int pid)
 {
